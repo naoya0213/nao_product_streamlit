@@ -1,8 +1,6 @@
-import shutil
-import os
-import numpy as np
+
 from PIL import Image
-import matplotlib.pyplot as plt
+
 
 def background_composition(image_path, matte_path, bg):
   foreground = Image.open(image_path)
