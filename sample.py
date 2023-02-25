@@ -8,4 +8,4 @@ if (f):
         file.write(f.read())
     file.close()
     st.image(portrait('static\modnet_image\input\\input.jpg'))
-#
+# 
